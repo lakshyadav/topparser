@@ -43,7 +43,7 @@
 	//console.dir(data_line[2])
 	//console.dir(data_line[3])
 	parseLine(result,"ram",data_line[3].replace(RegExp("k ","g")," ") )
-	parseLine(result,"swap",data_line[4].replace("free.","free,"))	
+	parseLine(result,"swap",data_line[4].replace("used.","used,"))	
 
 	//process
 	if(pid_limit){
